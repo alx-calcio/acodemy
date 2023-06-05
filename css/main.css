@@ -71,7 +71,7 @@ body {
   max-width: calc(var(--index) * 21);
   margin-bottom: var(--gallery-gap);
   max-height: 180vh;
-  border-radius: 8px;
+  border-radius: 25px;
 }
 .gallery__left {
   margin-top: calc(var(--gallery-gap) * 1.75);
@@ -111,12 +111,12 @@ body {
   -webkit-text-fill-color: transparent;
   animation: textclip 5s linear infinite;
   animation-direction: alternate;
-  font-size: calc(var(--index) * 7);
+  font-size: calc(var(--index) * 6);
   position: absolute;
   width: min-content;
   bottom: 25vh;
   line-height: 0.9;
-  display: inline-block
+  display: inline-block;
 }
 
 @keyframes textclip {
@@ -329,4 +329,10 @@ body {
     content: "developer";
     animation: sequencePopup 12s linear infinite;
   }
+}
+
+.link{
+  color: #7289da;
+  font-weight: bold;
+  text-decoration: none;
 }
